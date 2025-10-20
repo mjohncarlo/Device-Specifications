@@ -1,0 +1,43 @@
+.color-circle {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid;
+    transition: transform 0.2s ease, border-color 0.2 ease;
+}
+
+.bg-cream {
+    background-color: #eee8de;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-green {
+    background-color: #555b53;
+}
+
+.bg-lavender {
+    background-color: #d4c6d7;
+}
+
+.color-name {
+    font-size: 0.9rem;
+    margin: 0;
+    text-align: center;
+}
+
+.color-item {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    margin-right: 10px;
+}
+
+.sticky-container {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: rgb(111, 111, 255);
+}
