@@ -39,5 +39,13 @@
     position: sticky;
     top: 0;
     z-index: 1000;
-    background-color: rgb(111, 111, 255);
+    background-color: #4D8DFF;
+}
+
+.container[id] {
+    scroll-margin-top: 100px;
+}
+
+.container-fluid#about {
+    background-color: #f5f5f5;
 }
