@@ -14,7 +14,7 @@
 }
 
 .nav-link:hover {
-    color: #dce8ff;
+    color: #dce8ff; 
 }
 
 .container#home h5 {
@@ -25,19 +25,12 @@
     margin-bottom: 10px;
 }
 
-#home .tagline {
-    font-size: 1.15rem;
-    font-weight: 500;
-    color: #333;
-    margin-bottom: 10px;
-}
-
 #home .model-code {
     font-size: 0.85rem;
     font-weight: 400;
     letter-spacing: 0.5px;
     color: #474747;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 
 body {
@@ -80,13 +73,15 @@ body {
     align-items: center;
     flex-direction: column;
     display: flex;
-    margin-right: 10px;
+    justify-content: center;
+    margin: 0 10px;
 }
 
 .feature-bg {
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: #f7f7f7;
+    background-color: #f2f5fa;
+    border: 2px solid #b8b8b8;
 }
 
 .feature-item {
@@ -100,6 +95,7 @@ body {
 .feature-item:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+    border: 1px solid #0d6efd;  
 }
 
 .feature-title {
@@ -139,7 +135,7 @@ body {
 
 .specs-box {
     transition: all 0.3s ease;
-    border: 1px solid #e0e0e0;
+    border: 1px solid #e0e0e0;  
 }
 
 .specs-box:hover {
@@ -167,4 +163,12 @@ body {
 .specs strong {
     color: black;
     font-weight: 600;
+}
+
+.container#specs-sec h4 {
+    font-size: 1.5rem;
+    font-weight: 550;
+    letter-spacing: -0.5px;
+    margin-top: 150px;
+    margin-bottom: 30px;
 }
